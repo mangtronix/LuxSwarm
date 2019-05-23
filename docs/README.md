@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Lux Swarm
 
-You can use the [editor on GitHub](https://github.com/mangtronix/LuxSwarm/edit/master/docs/README.md) to maintain and preview the content for your website in Markdown files.
+## Software
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Lux Swarm files, including all the examples (https://github.com/mangtronix/LuxSwarm)
 
-### Markdown
+* Serial driver for CH340, to connect to D1 Mini hardware to flash code (https://wiki.wemos.cc/downloads)
+  * Mac - You need to install it and then allow the system extension in Security preferences (and reboot)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* ESPixelStick release 3.0 (https://github.com/forkineye/ESPixelStick/releases/tag/v3.0)
+  * Can flash using the Java flash tool, need to edit the firmware.json file
 
-```markdown
-Syntax highlighted code block
+* QLC+ (https://www.qlcplus.org/downloads.html)
+  * Example files (https://github.com/mangtronix/LuxSwarm/tree/master/Controller/QLC)
 
-# Header 1
-## Header 2
-### Header 3
+### Control Software
 
-- Bulleted
-- List
+You can control the Lux Swarm any software that can output MIDI or network DMX (sACN / E1.31 protocol)
 
-1. Numbered
-2. List
+* Processing (https://processing.org/download/)
+  * Example (https://github.com/mangtronix/LuxSwarm/tree/master/Controller/Processing/Light_Notes)
 
-**Bold** and _Italic_ and `Code` text
+* Ableton Live (https://www.ableton.com/en/trial/)
+  * Example (https://github.com/mangtronix/LuxSwarm/tree/master/Controller/Ableton/Simple%20Beat%20Project)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Optional
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mangtronix/LuxSwarm/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Arduino (https://www.arduino.cc/en/Main/Software)
+ * Serial Monitor can be used to check the output from the ESPixelStick connected over USB
