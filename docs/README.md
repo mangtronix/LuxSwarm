@@ -8,7 +8,7 @@
   * Mac - You need to install it and then allow the system extension in Security preferences (and reboot)
 
 * ESPixelStick release 3.0 (https://github.com/forkineye/ESPixelStick/releases/tag/v3.0)
-  * Can flash using the Java flash tool, need to edit the firmware.json file
+  * Can flash using the Java flash tool, need to replace the firmware/firmware.json file (https://github.com/mangtronix/LuxSwarm/blob/master/Code/firmware.json)
 
 * QLC+ (https://www.qlcplus.org/downloads.html)
   * Example files (https://github.com/mangtronix/LuxSwarm/tree/master/Controller/QLC)
