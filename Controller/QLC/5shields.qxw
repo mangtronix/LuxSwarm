@@ -253,7 +253,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Input Universe="0" Channel="139"/>
+     <Input Universe="0" Channel="140"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="0">0</Channel>
@@ -291,9 +291,9 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Input Universe="0" Channel="138"/>
+     <Input Universe="0" Channel="141"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="200">
       <Channel Fixture="1">0</Channel>
       <Channel Fixture="1">1</Channel>
       <Channel Fixture="1">2</Channel>
@@ -329,7 +329,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Input Universe="0" Channel="137"/>
+     <Input Universe="0" Channel="142"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="2">0</Channel>
@@ -367,7 +367,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Input Universe="0" Channel="136"/>
+     <Input Universe="0" Channel="143"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="3">0</Channel>
@@ -405,9 +405,9 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Input Universe="0" Channel="135"/>
+     <Input Universe="0" Channel="144"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="196">
       <Channel Fixture="4">0</Channel>
       <Channel Fixture="4">1</Channel>
       <Channel Fixture="4">2</Channel>
@@ -474,6 +474,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="0" Channel="10"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0"/>
      <Playback>
