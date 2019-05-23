@@ -2,21 +2,26 @@
 
 ## Software
 
+* Lux Swarm files, including all the examples (https://github.com/mangtronix/LuxSwarm)
+
 * ESPixelStick release 3.0 (https://github.com/forkineye/ESPixelStick/releases/tag/v3.0)
-** Can flash using the Java flash tool, need to edit the firmware.json file
+  * Can flash using the Java flash tool, need to edit the firmware.json file
 
 * QLC+ (https://www.qlcplus.org/downloads.html)
+  * Example files (https://github.com/mangtronix/LuxSwarm/tree/master/Controller/QLC)
 
 ### Control Software
 
 You can control the Lux Swarm any software that can output MIDI or network DMX (sACN / E1.31 protocol)
 
 * Processing (https://processing.org/download/)
+  * Example (https://github.com/mangtronix/LuxSwarm/tree/master/Controller/Processing/Light_Notes)
 
 * Ableton Live (https://www.ableton.com/en/trial/)
+  * Example (https://github.com/mangtronix/LuxSwarm/tree/master/Controller/Ableton/Simple%20Beat%20Project)
 
 
 ### Optional
 
 * Arduino (https://www.arduino.cc/en/Main/Software)
-** Serial Monitor can be used to check the output from the ESPixelStick connected over USB
+ * Serial Monitor can be used to check the output from the ESPixelStick connected over USB
