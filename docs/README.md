@@ -5,6 +5,7 @@
 * Lux Swarm files, including all the examples (https://github.com/mangtronix/LuxSwarm)
 
 * Serial driver for CH340, to connect to D1 Mini hardware to flash code (https://wiki.wemos.cc/downloads)
+  * Mac - You need to install it and then allow the system extension in Security preferences (and reboot)
 
 * ESPixelStick release 3.0 (https://github.com/forkineye/ESPixelStick/releases/tag/v3.0)
   * Can flash using the Java flash tool, need to edit the firmware.json file
