@@ -32,16 +32,53 @@ void setup() {
 }
 
 void draw() {
+  
+  // Use MIDI channel "1"
   int channel = 0;
+  
+  // Turn all the nodes on with notes
+  // The first node (node 1) has note 48 (C2/C3)
+  int nodeCount = 5;
+  int baseNote = 7;
+  
+  int delayBetweenNotes = 200;
+  
+  println("Turning on all nodes");
+  for (int node = 0; node <= nodeCount; node++) {
+    int pitch = baseNote + node;
+    int velocity = 100;
+    
+    println("  " + (node + 1) + ": note " + (pitch) + ", velocity " + velocity);
+    myBus.sendNoteOn(channel, pitch, velocity); // Send a Midi noteOn
+    
+    delay(delayBetweenNotes);
+  }
+  delay(2000);
+  
+  println("Turning off all nodes");
+  for (int node = 0; node <= nodeCount; node++) {
+    int pitch = baseNote + node;
+    int velocity = 0;
+    
+    println("  " + (node + 1) + ": note " + (pitch) + ", velocity " + velocity);
+    myBus.sendNoteOff(channel, pitch, velocity); // Send a Midi nodeOff
+    
+    delay(delayBetweenNotes);
+  }
 
+  delay(2000);
+
+
+/*
   // Go through all the nodes and turn each one on in sequence
+  int baseNote = 8;
   int baseBrightnessCC = 0;
   int baseHueCC = 20;
   
   int brightness = 90;
   float hue = 0;
   int hueMidiValue = 0; 
-  int nodeCount = 7;
+
   
   for (int node = 1; node <= nodeCount; node++) {
     hue = node / (float)nodeCount; // Set the hue to a value 0..1 mapped across the nodes, node rainbow!
@@ -57,24 +94,8 @@ void draw() {
     myBus.sendControllerChange(channel, baseBrightnessCC + node, 0); // Turn off node
     delay(500);
   }
+*/
 
-  // Turn all the nodes on with notes
-  // The first node (node 1) has note 48 (C2/C3)
-  int baseNote = 47;
-  println("Turning on all nodes");
-  for (int node = 1; node <= nodeCount; node++) {
-    int pitch = baseNote + node;
-    int velocity = 100;
-    myBus.sendNoteOn(channel, pitch, velocity); // Send a Midi noteOn
-  }
-  delay(2000);
-  for (int node = 1; node <= nodeCount; node++) {
-    int pitch = baseNote + node;
-    int velocity = 0;
-    myBus.sendNoteOff(channel, pitch, velocity); // Send a Midi nodeOff
-  }
-
-  delay(2000);
   
 }
 
