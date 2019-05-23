@@ -39,12 +39,12 @@ void draw() {
   // Turn all the nodes on with notes
   // The first node (node 1) has note 48 (C2/C3)
   int nodeCount = 5;
-  int baseNote = 7;
+  int baseNote = 12;
   
   int delayBetweenNotes = 200;
   
   println("Turning on all nodes");
-  for (int node = 0; node <= nodeCount; node++) {
+  for (int node = 0; node < nodeCount; node++) {
     int pitch = baseNote + node;
     int velocity = 100;
     
@@ -56,7 +56,7 @@ void draw() {
   delay(2000);
   
   println("Turning off all nodes");
-  for (int node = 0; node <= nodeCount; node++) {
+  for (int node = 0; node < nodeCount; node++) {
     int pitch = baseNote + node;
     int velocity = 0;
     
