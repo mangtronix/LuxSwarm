@@ -28,13 +28,13 @@ This repository collects code, project files for the control software, and CAD d
   * Can flash using the Java flash tool, need to replace the firmware/firmware.json file to add the correct settings for flashing the D1 Mini (https://github.com/mangtronix/LuxSwarm/blob/master/Code/firmware.json)
   
 * Arduino (https://www.arduino.cc/en/Main/Software)
- * The Serial Monitor can be used to check the output from the ESPixelStick connected over USB
-   * The Serial Monitor baud rate must be set to 115200
+  * The Serial Monitor can be used to check the output from the ESPixelStick connected over USB
+    * The Serial Monitor baud rate must be set to 115200
 
 
 ### Control Software
 
-You can control the Lux Swarm any software that can output MIDI or network DMX (sACN / E1.31 protocol)
+You can control the Lux Swarm any software that can output DMX using the sACN / E1.31 protocol
 
 * Mad Mapper (https://madmapper.com/)
   * Settings:
