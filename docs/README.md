@@ -27,6 +27,13 @@
 
 You can control the Lux Swarm any software that can output MIDI or network DMX (sACN / E1.31 protocol)
 
+* Mad Mapper (https://madmapper.com/)
+  * Settings:
+    * DMX Output Device: SACN
+    * Interface: (select connection to AP, either via WiFi or LAN)
+    * Maximum FPS: 25
+  * MadLight tutorial (https://www.youtube.com/watch?v=1a7Rqk7nGtM)
+
 * Processing (https://processing.org/download/)
   * Example (https://github.com/mangtronix/LuxSwarm/tree/master/Controller/Processing/Light_Notes)
 
