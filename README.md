@@ -1,5 +1,11 @@
 # Lux Swarm
 
+Lux Swarm is a set of tools and techniques curated by Michael Ang for creating wireless lighting nodes that can be carried in a backpack and quickly set up to create temporary light installations.
+
+For an overview of the project, see https://www.michaelang.com/project/lux-swarm
+
+This repository collects code, project files for the control software, and CAD designs for enclosures / wearables, etc.
+
 ## Hardware
 * ESP8266 development board, Wemos D1 Mini (https://wiki.wemos.cc/products:d1:d1_mini)
 * WS2811 protocol addressable LEDs (aka NeoPixels)
